@@ -12,20 +12,20 @@ section {
 }
 
 .s1 {
-    background: url(../HTML-Programas/imagens&Gifs/fundo1.jpg);
+    background: url('./imagens&Gifs/fundo1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 
 }
 
 .s2 {
-    background: url(../HTML-Programas/imagens&Gifs/fundo2.jpg);
+    background: url('./imagens&Gifs/fundo2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .s3 {
-    background: url(../HTML-Programas/imagens&Gifs/AnimatedFundo.gif);
+    background: url('./imagens&Gifs/AnimatedFundo.gif');
     background-repeat: no-repeat;
     background-size: cover;
 }
