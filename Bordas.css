@@ -17,7 +17,7 @@
     inset: 10px;
     border-radius: 16px;
     background-color: #1e1e1e;
-    background-image: url(../HTML-Programas/imagens&Gifs/Minhafoto.png);
+    background-image: url('./imagens&Gifs/Minhafoto.png');
     background-size: cover;
     /* z-index: 2; serve para sobrepor */
 }
