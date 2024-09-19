@@ -1,0 +1,45 @@
+.card        
+{
+    position: relative;
+    width: 300px;
+    height: 345px;
+    border-radius: 20px; 
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    top: 280px;
+    right: -260px;
+}
+
+.card span
+{
+    position: absolute;
+    inset: 10px;
+    border-radius: 16px;
+    background-color: #1e1e1e;
+    background-image: url(../HTML-Programas/imagens&Gifs/Minhafoto.png);
+    background-size: cover;
+    /* z-index: 2; serve para sobrepor */
+}
+
+.card::before /*Cor que fica na borda */
+{
+    content: '';
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-image: conic-gradient(transparent, transparent, transparent, #6b04f1);
+    animation: rotacionar 4s linear infinite;
+    animation-delay: -2s;
+}
+
+@keyframes rotacionar
+{
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">                                                                              <!--Coisas que eu não consegui fazer ou concertar-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">                              <!--Ajustar o Background do primeiro texto e não conseguir diminuir o do segundo texto, por isso ele está sem background-->
+    <link rel="stylesheet" href="Portfólio.css">                                                        <!--Ainda tentando entender mais sobre o funcionamento do box-model-->    
+    <link rel="stylesheet" href="Bordas.css">                                                           <!--Tabela, ainda aprendendo-->
+    <link rel="shortcut icon" href="./imagens&Gifs/LogoPortfólio.jpeg" type="image/x-icon">             <!--Mexer na foto dentro do CSS Bordas (dentro da borda)-->
+    <title>Porftólio Pessoal-Adrian Roldão</title>                                                      <!--Movimentar, posicionar e ajusto de tamanho dos elementos-->
+</head>                                                                                                 <!--Por enquanto só isso-->
+<style>
+    table {
+        width: 20%;
+        border-collapse: collapse;  /* Remove espaços entre bordas das células */
+        margin-top: 200px;
+        margin-right: 200px;
+        margin-left: 750px;
+    }
+
+    th,
+    td {
+        border: 4px solid #979393;
+        padding: 8px;/* Espaçamento interno das células */
+        text-align: left;
+        background-color: #1e1e1e;
+        color: #ffffff;
+    }
+
+    a:link{
+        text-decoration: none;
+    }
+
+    a:visited{
+        text-decoration: none;
+    }
+
+    a:hover{
+        text-decoration: underline;
+        color: #03fa24;
+    }
+
+    a:active{
+        text-decoration: none;
+    }
+</style>
+
+<body>
+    <section class="s1"> <!--Section serve para fazer outra sessão-->
+        <h1 class="titulo-pessoal">
+            Portfólio Acadêmico e Pessoal de Adrian Roldão
+        </h1>
+        <div>
+            
+            <div class="texto-div">
+                <h3>
+                    <p>Formação acadêmica: Ensino Superior, atualmente cursando Ciências da Computação na <a href="https://www.unoeste.br/">Unoeste</a> -
+                        Universidade do Oeste Paulista. Estou no segundo termo do curso, onde comecei a explorar
+                        diversas áreas da computação, como programação, algoritmos e estrutura de dados.</p>
+                    <p><br>Escolhi esse curso porque sempre gostei de passar tempo no computador e quero contribuir para
+                        os avanços tecnológicos que podem melhorar a vida das pessoas. Minha motivação vem da vontade de
+                        criar e inovar, ajudando a humanidade com futuros projetos.</p>
+                    <p><br>Em relação às disciplinas, não tenho uma matéria favorita específica. O que realmente importa
+                        para mim é que os professores consigam explicar os conteúdos de forma detalhada. Isso me motiva
+                        a aprender, mesmo quando enfrento dificuldades.
+                        Além disso, a Unoeste oferece várias oportunidades de projetos e atividades extracurriculares.
+                    </p>
+                    <p><br>Todos os anos, a universidade organiza projetos diversos e convida os estudantes a se
+                        voluntariarem, o que me permite ganhar experiência de vida e aplicar o conhecimento adquirido em
+                        sala de aula.</p>
+                </h3>
+            </div>
+            <div class="card"> <!--Perfil com foto-->
+                <span></span>
+            </div>
+        </div>
+    </section>
+    <section class="s2">
+        <h1 class="titulo-habilidades">
+            Habilidades & Competências
+        </h1>
+        <table>
+            <thead>
+                <caption>Minha Tabela</caption>
+                <tr> <!--Linha-->
+                    <th>Habilidades</th>
+                    <th>Nível</th>
+                    <th>Experiência</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        C<br> Python<br> HTML/CSS
+                    </td>
+                    <td>
+                        Em Progresso Em Progresso Em Progresso
+                    </td>
+                    <td>
+                        9 meses<br> 6 meses<br> 4 semanas
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section class="s3">
+        <h1 class="titulo-lazer">
+            Lazer
+        </h1>
+        <div>
+            <h3 class="texto-lazer">
+                <p>No meu tempo livre, gosto de jogar e descansar, encontrando equilíbrio entre diversão e
+                    relaxamento.<br> Também dedico parte do meu lazer a desenvolver projetos pessoais no VSCode, o que
+                    me permite aplicar<br> minhas habilidades tanto na Unoeste quanto em projetos pessoais e até mesmo
+                    em jogos.</p><br>
+                <p>Minha juventude foi marcada pela prática de diversos esportes, como natação, futebol, vôlei,
+                    basquete,<br> futsal e badminton. Essas experiências me ajudaram a desenvolver disciplina e trabalho
+                    em equipe, além<br> de promover um estilo de vida ativo e saudável.</p><br>
+                <p>Sou um grande apreciador de música, ouvindo regularmente estilos como rock, phonk e eletrônicos.<br>
+                    Um dos momentos marcantes foi assistir a um show da banda Sepultura, uma experiência
+                    inesquecível<br> que reforçou minha paixão pela música.</p><br>
+                <p>Além disso, tenho uma coleção de cartinhas usadas em Batalhas de Cartas e uma coleção de livros
+                    antigos<br> de infância. Essas coleções são um reflexo das minhas paixões e lembranças preciosas da
+                    minha juventude.
+                    <br>Essas atividades e interesses não só proporcionam momentos de diversão e relaxamento, mas
+                    também<br> contribuem para o meu crescimento pessoal e criativo.
+                </p>
+            </h3>
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+section {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.s1 {
+    background: url(../HTML-Programas/imagens&Gifs/fundo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.s2 {
+    background: url(../HTML-Programas/imagens&Gifs/fundo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.s3 {
+    background: url(../HTML-Programas/imagens&Gifs/AnimatedFundo.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo-pessoal {
+    color: #000000;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.titulo-habilidades {
+    color: #000000;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.titulo-lazer {
+    color: #ffff;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.texto-div {
+    left: 40%;  /*Texto colocado no centro da direita*/
+    right: 20%;
+    color: #f0ffff;
+    position: absolute;
+    background-color: #1e1e1e;
+    top: 320px;
+    border-radius: 5px;
+}
+
+.texto-lazer {
+    color: #ffff;
+    text-align: center;
+    padding: 10%;
+    padding-top: 50px;
+}
